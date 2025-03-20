@@ -1,0 +1,135 @@
+.contect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    background-color: rgb(64, 94, 70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30.5rem;
+}
+.titlemain{
+    margin-top: 1rem;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 30.5rem;
+    color: white;
+}
+.namediv{
+    border: 1px solid white;
+    padding: 1rem;
+    width: 25rem;
+    
+}
+.phonediv{
+    border: 1px solid white;
+    padding: 1rem;
+    width: 25rem;
+    margin-top: 1rem;
+}
+.messagediv{
+    border: 1px solid white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+#buton{
+    background-color: green;
+    width: 12rem;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    transition: 0.4s;
+}
+#buton:hover{
+    background-color: rgb(38, 169, 38);
+    color: white;
+}
+
+/* media quary */
+
+@media screen and (max-width: 988px){
+
+    .contect{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 460px){
+    .titlemain{
+        margin-top: .5rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: rgb(249, 248, 248);
+    }
+     .titlemain{
+            margin-left: 1.5rem;
+        }
+        .namediv{
+            padding: .9rem;
+            width: 20rem;
+            
+        }
+        .phonediv{
+            padding: .9rem;
+            width: 20rem;
+            margin-top: 1rem;
+        }
+        .messagediv{
+            padding: .9rem;
+            margin-top: 1rem;
+        }
+        #buton{
+            background-color: green;
+            width: 10rem;
+            padding: .5rem;
+            font-weight: 600;
+            transition: 0.4s;
+        }
+}
+
+@media screen and (max-width: 340px){
+        .titlemain{
+            font-size: 1.5rem;
+        }
+}
+@media screen and (max-width: 395px){
+    .namediv{
+        padding: .7rem;
+        width: 15rem;
+        margin-left: 2rem;
+        
+    }
+    .phonediv{
+        padding: .7rem;
+        width: 15rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .messagediv{
+        padding: .7rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        width: 15rem;
+    }
+    #buton{
+        background-color: green;
+        width: 10rem;
+        padding: .5rem;
+        font-weight: 600;
+        transition: 0.4s;
+        margin-left: 2rem;
+    }
+}

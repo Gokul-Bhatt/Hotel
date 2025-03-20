@@ -1,0 +1,16 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+}
+body{
+  background-color: white;
+  /* background: rgb(30,30,30);
+  color: white; */
+  color: black;
+  overflow: hidden;
+  overflow-y: scroll;
+}

@@ -1,0 +1,130 @@
+.home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.middle h1{
+    font-size: 5rem;
+}
+.logoh1{
+    display: grid;
+    place-items: center;
+
+}
+.btn{
+    /* background: red; */
+    display: grid;
+    place-items: center;
+    /* width: 10rem; */
+    height: 6rem;
+}
+.btn2{
+    width: 15rem;
+    height: 3rem;
+    color: black;
+    background-color: rgb(220, 219, 208);
+    transition: background-color 0.3s;
+    
+}
+.btn2:hover{
+    background-color: green;
+    color: white;
+}
+
+
+/* intro card csss */
+.intro{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5rem;
+    /* gap: 10px; */
+}
+.text{
+    background-color: rgb(240, 240, 240);
+    width: 60rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text1{
+    font-size: 1.5rem;
+    place-items: center;
+}
+.text2{
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    place-items: center;
+}
+
+/* cardslide */
+
+.secc{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    place-items: center;
+}
+.colum{
+    /* gap: 1rem; */
+    flex-wrap: wrap;
+    padding: 1rem;
+    /* background-color: rgb(152, 157, 166); */
+    background-color: #F5F5F5;
+}
+
+/* cards */
+.wweeff{
+    border: 2px solid #C0392B;
+}
+.bedimg{
+    height: 15rem;
+}
+.titlecss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.btncss{
+    background-color: rgb(202, 202, 202);
+    padding: .5rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+.btncss1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: large; */
+    font-weight: 600;
+}
+.btncss:hover{
+    background-color: green;
+    color: white;
+}
+.secdiv{
+    /* border-top: 2px solid rgb(211, 16, 16); */
+    background-color: rgb(255, 255, 255);
+}
+
+/* media quari */
+
+
+@media screen and (max-width: 448px){
+    .middle h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 366px){
+    .middle h1{
+        font-size: 3rem;
+    }
+}

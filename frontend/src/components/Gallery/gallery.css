@@ -1,0 +1,37 @@
+.menuu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(231, 231, 231);
+}
+.itemgallery{
+    margin-top: 2rem;
+    /* width: 15rem; */
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: .5rem solid white;
+}
+.photo{
+    width: 15rem;
+    height: 15rem;
+}
+
+
+/* media quari */
+
+@media screen and (max-width: 448px){
+    .photo{
+        width: 7rem;
+        height: 7rem;
+    }
+    .itemgallery{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        border: .3rem solid white;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.12.1",
+    "params": "^0.1.1"
+  }
+}

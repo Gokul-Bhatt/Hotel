@@ -1,0 +1,112 @@
+.ragister{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.ragister h1{
+    color: black;
+    
+}
+
+.item1{
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+#Name{
+    background-color: rgb(228, 255, 255);
+    display: flex;
+    width: 20rem;
+    padding: 5px;
+}
+#phone{
+    background-color: rgb(228, 255, 255);
+    display: flex;
+    width: 20rem;
+    padding: 5px;
+    margin-top: 1.3rem;
+}
+#bed{
+    background-color: rgb(228, 255, 255);
+    display: flex;
+    width: 20rem;
+    padding: 5px;
+    margin-top: 1.3rem;
+}
+#checkin{
+    background-color: rgb(228, 255, 255);
+    width: 20rem;
+    padding: 5px;
+}
+
+#checkout{
+    background-color: rgb(228, 255, 255);
+    width: 20rem;
+    padding: 5px;
+}
+#butn{
+    background-color: rgb(228, 255, 255);
+    width: 12rem;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.check{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+#butn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* reuse css */
+
+.reuse{
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.reuse1{
+    border: 3px solid rgb(255, 3, 3);
+    height: 27rem;
+    width: 18rem;
+}
+.imeg{
+    display: flex;
+    width: 18rem;
+    height: 15rem;
+    border-bottom: 3px solid red;
+}
+.ptag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title1{
+    color: black;
+}
+
+/* room */
+
+.room{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.itemroom{
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
