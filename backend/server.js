@@ -10,7 +10,7 @@ const path = require("path");
 
 
 const corsOptions ={
-    origin:"http://localhost:5173",
+    origin:"https://hotel-2-fkkj.onrender.com",
     methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials: true,
 } 

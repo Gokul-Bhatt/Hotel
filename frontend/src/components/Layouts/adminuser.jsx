@@ -7,7 +7,7 @@ const Adminuser = () => {
   const usersauthrizationToken = token;
   const getAllUsersData = async()=>{
     try {
-      const response = await fetch(`http://localhost:5000/admin/users`,{
+      const response = await fetch(`https://hotel-2-fkkj.onrender.com/admin/users`,{
         method:"GET",
         headers:{
           Authorization: usersauthrizationToken,
@@ -22,7 +22,7 @@ const Adminuser = () => {
   }
   const deleteUser = async(id)=>{
     try {
-      const response = await fetch(`http://localhost:5000/admin/users/delete/${id}`,{
+      const response = await fetch(`https://hotel-2-fkkj.onrender.com/admin/users/delete/${id}`,{
         method:"DELETE",
         headers:{
           Authorization: usersauthrizationToken,

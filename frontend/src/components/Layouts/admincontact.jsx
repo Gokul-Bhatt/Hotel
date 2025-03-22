@@ -7,7 +7,7 @@ const admincontact = () => {
   const usersauthrizationToken = token;
   const getAllContactData = async()=>{
     try {
-      const response = await fetch("http://localhost:5000/admin/contact",{
+      const response = await fetch("https://hotel-2-fkkj.onrender.com/admin/contact",{
         method:"GET",
         headers:{
           Authorization: usersauthrizationToken,
@@ -23,7 +23,7 @@ const admincontact = () => {
 
   const deletecontact = async(id)=>{
     try {
-      const response = await fetch(`http://localhost:5000/admin/contact/delete/${id}`,{
+      const response = await fetch(`https://hotel-2-fkkj.onrender.com/admin/contact/delete/${id}`,{
         method:"DELETE",
         headers:{
           Authorization:usersauthrizationToken,
