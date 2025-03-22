@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./adminlayout.css";
 
-const AdminUser = () => {
+const Adminuser = () => {
   const [users, setusers] = useState([]);
   const [token, settoken] = useState(localStorage.getItem("token"));
   const usersauthrizationToken = token;
@@ -73,4 +73,4 @@ const AdminUser = () => {
   )
 }
 
-export default AdminUser
+export default Adminuser

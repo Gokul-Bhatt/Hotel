@@ -8,7 +8,8 @@ import Room from './components/Room/room.jsx';
 import Ragister from './components/Room/ragister.jsx';
 import Gallery from './components/Gallery/gallery.jsx';
 import Admin from './components/Layouts/adminlayout.jsx';
-import AdminUser from './components/Layouts/AdminUser.jsx';
+// import AdminUser from './components/Layouts/Adminuser.jsx';
+import AdminUser from './components/Layouts/adminuser.jsx';
 import Admincontact from './components/Layouts/admincontact.jsx';
 
 const App = () => {
