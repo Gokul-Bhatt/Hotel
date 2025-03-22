@@ -5,6 +5,8 @@ const cors = require("cors")
 const authrouter = require("./router/auth-router");
 const connectdb = require('./Utils/db');
 const adminroute = require("./router/admin-route");
+// import path from "path";
+const path = require("path");
 
 
 const corsOptions ={
@@ -14,14 +16,20 @@ const corsOptions ={
 } 
 app.use(cors(corsOptions));
 
+const _dirname = path.resolve();
 
 app.use(express.json());
 app.use('/', authrouter);
 app.use('/register',authrouter);
 app.use('/contact',authrouter);
 app.use('/admin',adminroute);
+app.use(express.static(path.join(_dirname,"/frontend/dist")));
+app.get('*',(req,res)=>{
+    res.sendFile(path.resolve(_dirname, "frontend", "dist", "index.html"));
+});
 
 const PORT = 5000;
+
 
 
 connectdb().then(()=>{
