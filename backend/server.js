@@ -5,7 +5,6 @@ const cors = require("cors")
 const authrouter = require("./router/auth-router");
 const connectdb = require('./Utils/db');
 const adminroute = require("./router/admin-route");
-// import path from "path";
 const path = require("path");
 
 
