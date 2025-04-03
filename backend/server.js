@@ -9,7 +9,7 @@ const path = require("path");
 
 
 const corsOptions ={
-    origin:"https://hotel-2-fkkj.onrender.com",
+    origin:"https://hotel-2-fkkj.onrender.com/home",
     methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials: true,
 } 
