@@ -2,6 +2,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 2rem;
 }
 .middle h1{
     font-size: 5rem;
@@ -114,6 +115,24 @@
     /* border-top: 2px solid rgb(211, 16, 16); */
     background-color: rgb(255, 255, 255);
 }
+
+
+/* offerings */
+
+.offerings{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 
 /* media quari */
 

@@ -2,6 +2,8 @@ import React from 'react'
 import Home from './home.jsx';
 import Intro from './intro.jsx';
 import Cards from './cardslide.jsx';
+import Offerings from './offerings.jsx';
+
 
 const index = () => {
   return (
@@ -9,6 +11,7 @@ const index = () => {
       <Home/>
       <Intro/>
       <Cards/>
+      <Offerings/>
     </div>
   )
 }

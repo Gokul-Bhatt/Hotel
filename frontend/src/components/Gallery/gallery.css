@@ -1,4 +1,4 @@
-.menuu{
+/* .menuu{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -8,9 +8,9 @@
     background-color: rgb(231, 231, 231);
 }
 .itemgallery{
-    margin-top: 2rem;
+    margin-top: 2rem; */
     /* width: 15rem; */
-    margin-left: 2rem;
+    /* margin-left: 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -19,19 +19,52 @@
 .photo{
     width: 15rem;
     height: 15rem;
+} */
+.menuu{
+        column-count: 3;
+        max-width: 60rem;
+        margin: 0 auto; 
+        margin-top: 3rem;
 }
-
-
+.photo{
+    border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
 /* media quari */
 
 @media screen and (max-width: 448px){
-    .photo{
-        width: 7rem;
-        height: 7rem;
+    .menuu{
+        column-count: 2;
+        max-width: 20rem;
     }
-    .itemgallery{
-        margin-top: 1rem;
-        margin-left: 1rem;
-        border: .3rem solid white;
+
+}
+@media screen and (max-width: 950px){
+    .menuu{
+        max-width: 50rem;
+    }
+}
+@media screen and (max-width: 850px){
+    .menuu{
+        max-width: 40rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .menuu{
+        max-width: 30rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .menuu{
+        max-width: 20rem;
+    }
+}
+@media screen and (max-width: 350px){
+    .menuu{
+        column-count: 2;
+        max-width: 17rem;
     }
 }

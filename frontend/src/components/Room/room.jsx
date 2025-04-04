@@ -17,7 +17,6 @@ const room = () => {
     <div className="itemroom">
       <Reuse title="FOUR BED" price="2500" image={Room2}/>
     </div>
-
     </div>
     
   )

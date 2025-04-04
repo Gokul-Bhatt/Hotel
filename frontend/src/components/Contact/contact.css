@@ -78,24 +78,21 @@
             margin-left: 1.5rem;
         }
         .namediv{
-            padding: .9rem;
             width: 20rem;
             
         }
         .phonediv{
-            padding: .9rem;
             width: 20rem;
-            margin-top: 1rem;
         }
         .messagediv{
-            padding: .9rem;
-            margin-top: 1rem;
+            width: 20rem;
         }
         #buton{
             background-color: green;
-            width: 10rem;
-            padding: .5rem;
+            width: 20rem;
+            padding: .8rem;
             font-weight: 600;
+            font-size: 1.2rem;
             transition: 0.4s;
         }
 }
@@ -107,29 +104,20 @@
 }
 @media screen and (max-width: 395px){
     .namediv{
-        padding: .7rem;
-        width: 15rem;
-        margin-left: 2rem;
-        
+        width: 20rem;
     }
     .phonediv{
-        padding: .7rem;
-        width: 15rem;
-        margin-top: 1rem;
-        margin-left: 2rem;
+        width: 20rem;
     }
     .messagediv{
-        padding: .7rem;
-        margin-top: 1rem;
-        margin-left: 2rem;
-        width: 15rem;
+        width: 20rem;
     }
     #buton{
         background-color: green;
-        width: 10rem;
-        padding: .5rem;
+        width: 20rem;
+        padding: .8rem;
         font-weight: 600;
+        font-size: 1.2rem;
         transition: 0.4s;
-        margin-left: 2rem;
     }
 }

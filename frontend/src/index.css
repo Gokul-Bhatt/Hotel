@@ -11,6 +11,6 @@ body{
   /* background: rgb(30,30,30);
   color: white; */
   color: black;
-  overflow: hidden;
-  overflow-y: scroll;
+  /* overflow: hidden; */
+  /* overflow-y: scroll; */
 }

@@ -77,15 +77,16 @@
     width: 100%;
 }
 .reuse1{
-    border: 3px solid rgb(255, 3, 3);
+    background-color: white;
     height: 27rem;
     width: 18rem;
+    border-radius: 10px;
 }
 .imeg{
-    display: flex;
     width: 18rem;
     height: 15rem;
-    border-bottom: 3px solid red;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .ptag{
     display: flex;
@@ -100,13 +101,40 @@
 /* room */
 
 .room{
+    background-color: #F5C125;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 }
 .itemroom{
     margin-top: 1rem;
     margin-left: 4rem;
+}
+
+/* media quaris */
+
+@media screen and (max-width: 414px){
+    .itemroom{
+        margin: 0 auto; 
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 430px){
+    .itemroom{
+        margin: 0 auto; 
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 540px){
+    /* .room{
+        margin-top: 1rem;
+    } */
+    .itemroom{
+        margin: 0 auto; 
+        margin-bottom: 1rem;
+    }
+    .reuse{
+        margin-top: 2rem;
+    }
 }

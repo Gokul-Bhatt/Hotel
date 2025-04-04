@@ -47,6 +47,9 @@ const gallery = () => {
       <div className="itemgallery">
         <img src={sunset} alt="" className="photo" loading='lazy' />
       </div>
+      <div className="itemgallery">
+        <img src={room1} alt="" className="photo" loading='lazy' />
+      </div>
     </div>
   )
 }
