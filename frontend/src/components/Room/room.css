@@ -106,6 +106,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 .itemroom{
     margin-top: 1rem;
