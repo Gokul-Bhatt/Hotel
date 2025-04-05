@@ -11,6 +11,7 @@ import Admin from './components/Layouts/adminlayout.jsx';
 // import AdminUser from './components/Layouts/Adminuser.jsx';
 import AdminUser from './components/Layouts/adminuser.jsx';
 import Admincontact from './components/Layouts/admincontact.jsx';
+import Footer from './components/Home/footer.jsx';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
               <Route path='/admin/contact' element={<Admincontact/>}/>
             </Route> 
           </Routes>
+          <Footer/>
       </BrowserRouter>
 
       </div>
