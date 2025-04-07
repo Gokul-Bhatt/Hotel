@@ -12,7 +12,7 @@ const reuse = ({image, title, price}) => {
         <div className='ptag'>
         <p className='title title1'>{title}</p>
         <p className=' title1 title is-4 is-family-secondary'>{price} INR</p>
-        <div className='btn1 button is-primary is-rounded'>
+        <div className='btn1'>
         <button
         onClick={()=>navigate("../ragister")}>BOOK NOW</button>
         </div>

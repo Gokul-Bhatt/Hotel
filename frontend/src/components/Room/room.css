@@ -126,7 +126,24 @@
 .title1{
     color: black;
 }
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    background-color: rgb(118, 193, 32);
+    padding: .5rem;
+    border-radius: 2rem;
+    font-size: large;
+    font-weight: 700;
+    color: black;
+    transition: .03s;
+}
 
+.btn1:hover{
+    background-color: rgb(1, 122, 1);
+    color: white;
+}
 /* room */
 
 .room{
