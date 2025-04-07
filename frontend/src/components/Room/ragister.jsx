@@ -53,9 +53,12 @@ const ragister = (handlemiddlware) => {
   }
     return (
     <div className='ragister'>
+        <div className="head">
       <h1 className='title'>Fill The Form To Book The Room</h1>
+      </div>
+      <div className="item1">
       <form onSubmit={handlesubmit}>
-        <div className='item1'>
+        <div className='item11'>
           <label htmlFor="Name"></label>
           <input
             type='text'
@@ -68,7 +71,7 @@ const ragister = (handlemiddlware) => {
             onChange={handelInput}
           />
         </div>
-        <div className='item1'>
+        <div className='item11'>
           <label htmlFor="phone"></label>
           <input
             type='text'
@@ -81,7 +84,7 @@ const ragister = (handlemiddlware) => {
             onChange={handelInput}
           />
         </div>
-        <div className='item1'>
+        <div className='item11'>
           <label htmlFor="bed"></label>
           <input
             type='number'
@@ -94,7 +97,7 @@ const ragister = (handlemiddlware) => {
             onChange={handelInput}
           />
         </div>
-        <div className='item1'>
+        <div className='item11'>
           <label htmlFor="checkin" className='check'> CHECK IN </label>
           <input
             type='date'
@@ -107,7 +110,7 @@ const ragister = (handlemiddlware) => {
             onChange={handelInput}
           />
         </div>
-        <div className='item1'>
+        <div className='item11'>
           <label htmlFor="checkout" className='check'>CHECKOUT </label>
           <input
             type='date'
@@ -120,13 +123,14 @@ const ragister = (handlemiddlware) => {
             onChange={handelInput}
           />
         </div>
-        <div className="item1">
+        <div className="item11">
         <button type='submit' id='butn' className='butn' onClick={()=>{massage()}}>
           BOOK NOW
         </button>
         </div>
       </form>
     </div>
+   </div>
   )
 }
 

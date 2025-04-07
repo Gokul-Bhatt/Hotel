@@ -2,53 +2,81 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    background-color:#FCCC76;
+    padding: 4rem;
 }
 .ragister h1{
-    color: black;
-    
+    /* color: black; */
+    color: white;
+}
+.head{
+    /* background-color: #F5C125; */
+    background-color: #363636;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .item1{
-    background-color: rgb(240, 240, 240);
-    display: grid;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4px;
+    padding-bottom: 4rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 #Name{
-    background-color: rgb(228, 255, 255);
-    display: flex;
-    width: 20rem;
-    padding: 5px;
+    /* background-color: rgb(228, 255, 255); */
+    /* display: flex; */
+    border: 2px solid black;
+    font-size: large;
+    width: 22rem;
+    margin-top: 2rem;
+    padding: .5rem;
 }
 #phone{
-    background-color: rgb(228, 255, 255);
-    display: flex;
-    width: 20rem;
-    padding: 5px;
-    margin-top: 1.3rem;
+    /* background-color: rgb(228, 255, 255); */
+    /* display: flex; */
+    border: 2px solid black;
+    font-size: large;
+    width: 22rem;
+    padding: .5rem;
+    margin-top: 1rem;
 }
 #bed{
-    background-color: rgb(228, 255, 255);
-    display: flex;
-    width: 20rem;
-    padding: 5px;
-    margin-top: 1.3rem;
+    /* background-color: rgb(228, 255, 255); */
+    /* display: flex; */
+    border: 2px solid black;
+    font-size: large;
+    width: 22rem;
+    padding: .5rem;
+    margin-top: 1rem;
 }
 #checkin{
-    background-color: rgb(228, 255, 255);
-    width: 20rem;
-    padding: 5px;
+     /* background-color: rgb(228, 255, 255); */
+    /* display: flex; */
+    border: 2px solid black;
+    font-size: large;
+    width: 22rem;
+    padding: .5rem;
+    /* margin-top: 1rem; */
 }
 
 #checkout{
-    background-color: rgb(228, 255, 255);
-    width: 20rem;
-    padding: 5px;
+     /* background-color: rgb(228, 255, 255); */
+    /* display: flex; */
+    border: 2px solid black;
+    font-size: large;
+    width: 22rem;
+    padding: .5rem;
+    /* margin-top: 1rem; */
 }
 #butn{
-    background-color: rgb(228, 255, 255);
-    width: 12rem;
+    background-color: rgb(33, 174, 15);
+    width: 20rem;
     padding: .5rem;
     border-radius: 5rem;
     margin-top: 1rem;
@@ -60,6 +88,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: larger;
     font-weight: 600;
 }
 #butn:hover{
@@ -137,5 +166,133 @@
     }
     .reuse{
         margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 500px){
+    #Name{
+        border: 2px solid black;
+        font-size: large;
+        width: 18rem;
+        margin-top: 2rem;
+        padding: .5rem;
+    }
+    #phone{
+        border: 2px solid black;
+        font-size: large;
+        width: 18rem;
+        padding: .5rem;
+        margin-top: 1rem;
+    }
+    #bed{
+        border: 2px solid black;
+        font-size: large;
+        width: 18rem;
+        padding: .5rem;
+        margin-top: 1rem;
+    }
+    #checkin{
+        border: 2px solid black;
+        font-size: large;
+        width: 18rem;
+        padding: .5rem;
+    }
+    
+    #checkout{
+        border: 2px solid black;
+        font-size: large;
+        width: 18rem;
+        padding: .5rem;
+    }
+    #butn{
+        background-color: rgb(33, 174, 15);
+        width: 18rem;
+        padding: .5rem;
+        border-radius: 5rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        transition: 0.4s;
+    }
+    .check{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        font-weight: 600;
+    }
+    .ragister h1{
+        font-size: 1.6rem;
+        color: white;
+    }
+    .item1{
+        padding-bottom: 3rem;
+    }
+    .ragister{
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    #Name{
+        border: 2px solid black;
+        font-size: large;
+        width: 15rem;
+        margin-top: 2rem;
+        padding: .3rem;
+    }
+    #phone{
+        border: 2px solid black;
+        font-size: large;
+        width: 15rem;
+        padding: .5rem;
+        padding: .3rem;
+    }
+    #bed{
+        border: 2px solid black;
+        font-size: large;
+        width: 15rem;
+        padding: .5rem;
+        padding: .3rem;
+    }
+    #checkin{
+        border: 2px solid black;
+        font-size: large;
+        width: 15rem;
+        padding: .3rem;
+    }
+    
+    #checkout{
+        border: 2px solid black;
+        font-size: large;
+        width: 15rem;
+        padding: .3rem;
+    }
+    #butn{
+        background-color: rgb(33, 174, 15);
+        width: 15rem;
+        padding: .5rem;
+        border-radius: 5rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        transition: 0.4s;
+    }
+    .check{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        font-weight: 600;
+    }
+    .ragister h1{
+        font-size: 1.4rem;
+        color: white;
+    }
+    .item1{
+        padding-bottom: 3rem;
+    }
+    .ragister{
+        padding: 1rem;
     }
 }
