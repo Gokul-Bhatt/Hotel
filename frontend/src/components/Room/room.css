@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color:#FCCC76;
-    padding: 4rem;
+    padding: 3rem;
 }
 .ragister h1{
     /* color: black; */
@@ -173,7 +173,7 @@
         border: 2px solid black;
         font-size: large;
         width: 18rem;
-        margin-top: 2rem;
+        /* margin-top: 1rem; */
         padding: .5rem;
     }
     #phone{
@@ -225,7 +225,10 @@
         color: white;
     }
     .item1{
+        /* padding: 2.5rem; */
         padding-bottom: 3rem;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
     }
     .ragister{
         padding: 2rem;
